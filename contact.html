@@ -12,15 +12,50 @@
         <h1></h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="goal-tracker.html">Goal Tracker</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section></section>
-        <section></section>
+        <section>
+            <form method="post" id="contact">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="first_name"> First Name:
+                        <input type="text" id="first_name" name="first_name" required>
+                    </label>
+                    <label for="last_name"> Last Name:
+                        <input type="text" id="last_name" name="last_name" required>
+                    </label>
+                
+                    <label for="phone"> Phone #:
+                        <input type="tel" id="phone" name="phone" required>
+                    </label>
+                    <label for="email"> Email: 
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Message</legend>
+                    <label for="message_type"> Message Type
+                        <select name="message_type" id="message_type">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                        </select>
+                    </label>
+                    <label for="comments"> Comments
+                        <textarea name="comments" id="" cols="30" rows="20">
+                            Place comment here
+                        </textarea>
+                    </label>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
         <section></section>
     </main>
     <footer>
