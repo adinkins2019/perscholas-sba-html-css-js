@@ -172,14 +172,18 @@ footer{
     margin: 0 auto;
 }
 
-
+#contact select, #contact textarea, #contact input{
+    color: #0B132B;
+}
 #contact input {
     padding: 2%;
     width: 70%;
     margin: 2%;
-    color: #0B132B;
 }
 
+#contact textarea{
+    text-align: left;
+}
 #contact button{
     font-size: 2rem;
     color: #0B132B;
