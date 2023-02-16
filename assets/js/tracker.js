@@ -10,6 +10,8 @@ const CheckedLabel = document.createElement("label");
 const InputLabel =document.createElement("label");
 const Table = document.createElement("table");
 
+Form.id = "goal-tracker";
+
 Button.type="submit";
 Button.textContent = "Add Goal";
 Button.id = "addGoal";
@@ -18,6 +20,8 @@ InputLabel.textContent = "Goal: "
 InputBox.type = "text"
 InputBox.name = "task"
 InputBox.required = true;
+InputBox.id = "goal-tracker-input";
+InputBox.placeholder = "Enter Goal Here";
 
 let goal = {
   task: "",
@@ -40,10 +44,11 @@ const displayGoals = (goals) => {
   
   goals.forEach(goal => {
     const row = document.createElement("tr");
+    row.className = "table-row";
     const data = document.createElement("td");
     data.textContent = goal.task;
-    data.addEventListener('click', function(){
-      data.classList.toggle = "completed";
+    row.addEventListener('click', function(){
+      row.classList.toggle("completed");
     })
     row.appendChild(data);
     Table.appendChild(row);

@@ -137,3 +137,96 @@ footer{
     text-align: center;
     font-size: 1.05rem;
 }
+
+/* Content for contact page */
+#contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    width:50%;
+    margin: 0 auto;
+}
+
+#contact fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+#contact legend{
+    font-size: 1.5rem;
+}
+#contact label {
+    font-size: 1.75rem;
+   
+}
+
+#contact fieldset div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items:center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+#contact input {
+    padding: 2%;
+    width: 70%;
+    margin: 2%;
+    color: #0B132B;
+}
+
+#contact button{
+    font-size: 2rem;
+    color: #0B132B;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Goal Tracking */
+#goal-tracker{
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    align-items: center;
+
+}
+
+#goal-tracker-input{
+    font-size: 1.25rem;
+    color: #0B132B;
+    padding: 2%;
+    margin: 2%;
+}
+
+#addGoal{
+    color:#0B132B;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+table{
+    background-color: #5BC0BE;
+    color: #0B132B;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
+.completed{
+    text-decoration: line-through;
+}
+.table-row{
+    margin: 2%;
+    width: 400px;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+
+.table-row td{
+    width: 100%;    
+    margin: 2%;
+}
+
