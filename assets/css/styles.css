@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
 }
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
     background-color: #0B132B;
 }
 
@@ -39,7 +41,7 @@ nav ul{
 
 nav ul li{
     list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 nav ul li a{
@@ -94,10 +96,49 @@ main section:nth-child(2) {
     font-size: 1.15rem;
     padding: 2%;    
 }
+#goal-setting-benefits{
+    background-color: #5BC0BE;
+    margin-bottom: 20px;
+    
+}
+
+#goal-setting-benefits h2{
+    text-align: center;
+    color:#0B132B;
+    
+}
+
+#goal-setting-benefits table {
+    color:#0B132B;
+    border: 2px solid #0B132B;
+    margin: 0 auto;
+    padding: 0;
+    border-collapse:collapse;
+    border-spacing: 20px;
+    width: 60%;
+}
+
+#goal-setting-benefits table tr:nth-child(odd){
+    background-color: #3A506B;
+    color: #5BC0BE;
+}
+#goal-setting-benefits table tr th {
+    font-weight: 900;
+    font-size: 1.75rem;
+    padding: 2%;
+    margin: 2%;
+}
+
+#goal-setting-benefits table tr td{
+    font-size: 1.25rem;
+    padding: 2%;
+    
+}
 
 #books{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .box{
